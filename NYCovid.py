@@ -52,7 +52,7 @@ where p.County not like '%United States%'
 ''',conn)
 
 #Land it in a CSV for Tableau
-NYCovid.to_csv('NYCovid')
+NYCovid.to_csv('NYCovid.csv')
 
 
 
